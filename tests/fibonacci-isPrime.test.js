@@ -1,5 +1,5 @@
-const expect = require("chai").expect;
-const { fibonacci, isPrime } = require("../index.js");
+import { expect } from "chai";
+import { fibonacci, isPrime } from "../index.js";
 
 describe("Fibonacci and Prime Functions", () => {
   describe("#fibonacci()", () => {

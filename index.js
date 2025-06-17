@@ -45,7 +45,4 @@ function isNonNegativeInteger(n) {
   return Number.isInteger(n) && n >= 0;
 }
 
-module.exports = {
-  fibonacci,
-  isPrime,
-};
+export { fibonacci, isPrime };
